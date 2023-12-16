@@ -24,7 +24,8 @@ public class Keygrid.Application : Gtk.Application {
     private const ActionEntry[] ACTION_ENTRIES = {
         { "quit", quit },
         { "display_about", action_display_about },
-        { "display_help", action_display_help }
+        { "display_help", action_display_help },
+        { "show_settings", action_show_settings }
     };
 
     public Application() {
@@ -41,6 +42,14 @@ public class Keygrid.Application : Gtk.Application {
     }
 
     public override void activate() {
+        var granite_settings = Granite.Settings.get_default();
+        var gtk_settings = Gtk.Settings.get_default();
+
+        gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
+        granite_settings.notify["prefers-color-scheme"].connect(() => {
+            gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
+        });
+
         if (window == null) window = new MainWindow(this);
         window.present();
         window.action_generate_card();
@@ -55,7 +64,7 @@ public class Keygrid.Application : Gtk.Application {
             program_name = "Keygrid",
             authors = { "roxwize", "GitHub and Sourcehut contributors" },
             comments = _("The \"Keyboard\" layout is adapted from https://qwertycards.com/. If you like the concept, consider buying a card from there."),
-            version = "1.0.0",
+            version = "0.1",
             website = "https://roxwize.xyz/site/keygrid.html",
             website_label = _("Keygrid Website"),
             license_type = Gtk.License.GPL_3_0,
@@ -65,6 +74,10 @@ public class Keygrid.Application : Gtk.Application {
     }
 
     public void action_display_help() {
+
+    }
+
+    public void action_show_settings() {
 
     }
 }
