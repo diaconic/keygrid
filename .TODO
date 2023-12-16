@@ -1,0 +1,4 @@
+- fix error of window resizing looking weird
+- handle whitelists
+- add documentation for card types
+- optimize ly_grid.svg

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>xyz.roxwize.keygrid</id>
+  
+  <name>Keygrid</name>
+  <summary>Save and generate password cards</summary>
+  
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  
+  <description>
+    <p>
+      Keygrid is password card generation software. You can select different card types to use and save them to your computer or print them out.
+    </p>
+  </description>
+  
+  <launchable type="desktop-id">xyz.roxwize.keygrid.desktop</launchable>
+</component>

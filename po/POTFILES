@@ -1,0 +1,6 @@
+data/xyz.roxwize.keygrid.desktop.in
+data/xyz.roxwize.keygrid.metainfo.xml.in
+data/xyz.roxwize.keygrid.gschema.xml
+data/ui/main.ui
+src/Application.vala
+src/MainWindow.vala

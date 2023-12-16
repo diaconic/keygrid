@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the keygrid package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: keygrid\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-13 23:12-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/xyz.roxwize.keygrid.desktop.in:5
+#: data/xyz.roxwize.keygrid.metainfo.xml.in:5
+msgid "Keygrid"
+msgstr ""
+
+#: data/xyz.roxwize.keygrid.desktop.in:6
+msgid "Password Generator"
+msgstr ""
+
+#: data/xyz.roxwize.keygrid.desktop.in:7
+#: data/xyz.roxwize.keygrid.metainfo.xml.in:6
+msgid "Save and generate password cards"
+msgstr ""
+
+#: data/xyz.roxwize.keygrid.metainfo.xml.in:12
+msgid ""
+"Keygrid is password card generation software. You can select different card "
+"types to use and save them to your computer or print them out."
+msgstr ""
+
+#: data/xyz.roxwize.keygrid.gschema.xml:11
+msgid "The card layout to use"
+msgstr ""
+
+#. Random seed
+#: data/ui/main.ui:52
+msgid "Seed"
+msgstr ""
+
+#. Variety of card to generate
+#: data/ui/main.ui:81
+msgid "Type"
+msgstr ""
+
+#: data/ui/main.ui:94
+msgid "Keyboard"
+msgstr ""
+
+#: data/ui/main.ui:95
+msgid "Grid"
+msgstr ""
+
+#: data/ui/main.ui:151
+msgid "Save..."
+msgstr ""
+
+#: data/ui/main.ui:159
+msgid "Quit"
+msgstr ""
+
+#: src/Application.vala:57
+msgid ""
+"The \"Keyboard\" layout is adapted from https://qwertycards.com/. If you "
+"like the concept, consider buying a card from there."
+msgstr ""
+
+#: src/Application.vala:60
+msgid "Keygrid Website"
+msgstr ""
+
+#: src/MainWindow.vala:99
+msgid ""
+"Rendering the card failed. If you are running this through a terminal, check "
+"the output logs."
+msgstr ""
+
+#: src/MainWindow.vala:106
+msgid ""
+"Some sort of error occurred, the card type can't be found. Make sure your "
+"configuration is correct, or file an issue in the GitHub repository."
+msgstr ""

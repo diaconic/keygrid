@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=0.1
+Type=Application
+Name=Keygrid
+GenericName=Password Generator
+Comment=Save and generate password cards
+Categories=Utility;TextTools;
+Icon=xyz.roxwize.keygrid
+Exec=xyz.roxwize.keygrid
+Terminal=false

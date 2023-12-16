@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="keygrid">
+	<enum id="card-layout">
+		<value value="0" nick="keyboard" />
+		<value value="1" nick="grid" />
+	</enum>
+
+	<schema id="xyz.roxwize.keygrid" path="/xyz/roxwize/keygrid/">
+		<key name="card-type" enum="card-layout">
+			<default>'keyboard'</default>
+			<summary>The card layout to use</summary>
+		</key>
+	</schema>
+</schemalist>

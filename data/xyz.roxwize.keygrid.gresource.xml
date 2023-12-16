@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+    <gresource prefix="/xyz/roxwize/keygrid/">
+        <file preprocess="xml-stripblanks">ui/main.ui</file>
+        
+        <file preprocess="xml-stripblanks">ui/ly_keyboard.svg</file>
+        <file preprocess="xml-stripblanks">ui/ly_grid.svg</file>
+    </gresource>
+</gresources>
